@@ -1,7 +1,8 @@
 // Selectors (main)
 const nav_bar = document.getElementById("nav_bar");
-
-
+nav_bar.style.position = 'fixed'
+nav_bar.style.width = '100%'
+nav_bar.style.top = 0
 
 // Selectors (boxes)
     // Games
