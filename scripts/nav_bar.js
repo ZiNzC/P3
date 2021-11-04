@@ -9,12 +9,12 @@ array = ['Homepage', 'Hardware', 'Software', 'Games', 'About us', 'Contact us']/
 for (i of array) {
     this[i+'span'] = document.createElement('span')//creates dynamic variables using the array
     this[i+'anchor'] = document.createElement('a')
-    this[i+'label'] = document.createTextNode(i)
 
     let span = this[i+'span']
 
     this[i+'anchor'].href = i+'.html'//adds the link to our navigation bar
-    this[i+'anchor'].appendChild(this[i+'label'])
+    this[i+'anchor'].appendChild(document.createTextNode(i))
+    
     span.appendChild(this[i+'anchor'])
 
     span.style.display = "inline-block";//span designs
