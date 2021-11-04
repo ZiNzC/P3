@@ -1,0 +1,30 @@
+#feed {
+    width: 820px;
+    margin: auto;
+}
+.card {
+    border-radius: 20px;
+    background-color: #f1f1f1;
+    border-style: none;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 750px;
+    margin-bottom: 20px;
+}
+.small {
+    width: 342px;
+    margin-right: 20px;
+    display: inline-block;
+}
+.imageContainer img{
+    width: 100%;
+    border-radius: 10px;
+}
+.small img {
+    height: 165px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
