@@ -1,8 +1,9 @@
 body {
-    background-image: url("/articles/3392075.jpg");
+    background-image: url("/images/3392075.jpg");
     background-size: 100%;
     font-family: Arial, Helvetica, sans-serif;
     background-color:  black;
+    margin: 0;
 }
 h1 {
     text-align: center;

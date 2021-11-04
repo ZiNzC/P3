@@ -24,7 +24,7 @@ const hardware_text = document.createTextNode("Hardware");
 const hardware_anchor = document.createElement("a");
 
 hardware_span.classList.add("top_navigation_span");
-hardware_anchor.href="hei";
+hardware_anchor.href="hardware.html";
 hardware_anchor.appendChild(hardware_text);
 hardware_span.appendChild(hardware_anchor);
 
