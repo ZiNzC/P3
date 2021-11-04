@@ -4,7 +4,6 @@ nav_bar.style.width = '100%'
 nav_bar.style.top = 0
 nav_bar.style.backgroundColor = 'black'
 
-
 array = ['Homepage', 'Hardware', 'Software', 'Games', 'About us', 'Contact us']//Array to define our navigation bar names
 
 for (i of array) {
