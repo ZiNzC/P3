@@ -3,6 +3,7 @@ nav_bar.style.position = 'fixed'
 nav_bar.style.width = '100%'
 nav_bar.style.top = 0
 nav_bar.style.backgroundColor = 'black'
+nav_bar.style.zIndex = '2'
 
 array = ['Homepage', 'Hardware', 'Software', 'Games', 'About us', 'Contact us']//Array to define our navigation bar names
 
